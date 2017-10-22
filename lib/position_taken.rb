@@ -4,5 +4,6 @@ def position_taken?(array, index)
     if array[index] == " " || "" || nil
         false
     else
+        true
     end
 end
