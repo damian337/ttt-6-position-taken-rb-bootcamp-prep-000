@@ -10,4 +10,4 @@ end
 
 board = [" "]
 board[5] = "X"
-position_taken?(board)
+puts position_taken?(board,5)
