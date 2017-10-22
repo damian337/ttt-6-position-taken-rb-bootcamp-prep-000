@@ -3,7 +3,9 @@
 def position_taken?(array, index)
     if array[index] == " " || ""
         false
-    else
+    elsif array[index] == "X" || "O"
         true
+    else
+        nil
     end
 end
