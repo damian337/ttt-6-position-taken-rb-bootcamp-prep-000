@@ -9,5 +9,5 @@ def position_taken?(array, index)
 end
 
 board = [" "]
-board[5] = "X"
-puts position_taken?(board,5)
+board[5] = "ererer"
+puts position_taken?(board, 5)
