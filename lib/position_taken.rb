@@ -7,11 +7,7 @@ def position_taken?(array, index)
         return false
     elsif array[index] == nil
         return false
-    else 
+    else
         return true
     end
 end
-
-board = [" "]
-board[5] = "ererer"
-puts position_taken?(board, 5)
