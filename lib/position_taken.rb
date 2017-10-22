@@ -7,3 +7,6 @@ def position_taken?(array, index)
         true
     end
 end
+
+board[5] = "X"
+position_taken?
