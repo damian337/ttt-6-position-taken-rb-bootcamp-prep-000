@@ -8,5 +8,6 @@ def position_taken?(array, index)
     end
 end
 
+board = [" "]
 board[5] = "X"
-position_taken?
+position_taken?(board)
